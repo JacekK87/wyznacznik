@@ -1,30 +1,30 @@
 #include <stdio.h>
 #include <math.h>
 
-int wyznacznik (int a1, int b2, int a2, int b1);{
-	printf("Pierwszy wyznacznik: %i\n" , a1*b2 -b1*a2);
-	return a1*b2 -a2*b1;
-} 
-int wyznacznik_x (int c1, int b2, int c2, int b1);{
-        printf("Pierwszy wyznacznik: %i\n" , c1*b2 - b1*c2); 
-        return a1*b2 -a2*b1;	int a1,a2, b1, b2, c1, c2;
-	int w, wx ,wy;
+   
+int  main(void)
+{
+	double  a1, a2, b1, b2, c1, c2;
+	int wyznacznik , wyznacznikx , wyznaczniky;	
 	{ 
 		puts("Program do oblicznia równań za pomoca wyznaczników");
 
-		printf( "Podaj wartoscc liczby a1 = %f"); scanf( "%f", $a1);
-		printf( "Podaj wartoscc liczby a2 = %f"); scanf( "%f", $a2);
-		printf( "Podaj wartoscc liczby b1 = %f"); scanf( "%f", $b1); 
-		printf( "Podaj wartoscc liczby b2 = %f"); scanf( "%f", $b2);
-		printf( "Podaj wartoscc liczby c1 = %f"); scanf( "%f", $c1);
-		printf( "Podaj wartoscc liczby c2 = %f"); scanf( "%f", $c2);
-
-		
-
-
-
-
+		printf( "Podaj wartoscc liczby a1 = \n"); scanf( "%lf", &a1);
+		printf( "Podaj wartoscc liczby a2 = \n"); scanf( "%lf", &a2);
+		printf( "Podaj wartoscc liczby b1 = \n"); scanf( "%lf", &b1); 
+		printf( "Podaj wartoscc liczby b2 = \n"); scanf( "%lf", &b2);
+		printf( "Podaj wartoscc liczby c1 = \n"); scanf( "%lf", &c1);
+		printf( "Podaj wartoscc liczby c2 = \n"); scanf( "%lf", &c2);
 	}
+ 
+{
+        printf("Pierwszy wyznacznik: %lf\n" , a1*b2 -b1*a2);
+        printf("Wyznacznik x: %lf\n" , c1*b2 - b1*c2); 
+	printf("Wyznacznik y: %lf\n" , a1*c2 - c2*a2); 
+  
+}
 
+		return 0;
+}
 
 		
