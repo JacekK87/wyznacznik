@@ -1,0 +1,7 @@
+
+
+Unikaj wszystkich plików wykonalnych kompolacji
+
+*.o
+*.out
+*.c~
